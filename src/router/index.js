@@ -5,8 +5,8 @@ Vue.use(Router)
 export default new Router({
     routes: [{
             path: '/',
-            name: 'warp',
-            component: resolve => require(['@/components/Warp'], resolve),
+            name: 'wrap',
+            component: resolve => require(['@/components/Wrap'], resolve),
         },
         {
             path: '/patient',
