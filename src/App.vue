@@ -11,5 +11,8 @@ export default {
 </script>
 
 <style lang='scss'>
-@import 'scss/reset.scss'
+@import 'scss/reset.scss';
+.gg{
+  color: red;
+}
 </style>
