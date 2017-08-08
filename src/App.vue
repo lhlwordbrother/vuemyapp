@@ -1,5 +1,5 @@
 <template>
-  <div id="app">
+  <div id="app" class="_full1">
     <router-view></router-view>
   </div>
 </template>
@@ -9,10 +9,6 @@ export default {
   name: 'app'
 }
 </script>
+<style lang="scss" scoped>
 
-<style lang='scss'>
-@import 'scss/reset.scss';
-.gg{
-  color: red;
-}
 </style>

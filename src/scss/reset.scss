@@ -100,22 +100,13 @@ table {
     border-collapse: collapse;
 }
 
-html {
-    overflow-y: scroll;
+html,
+body {
+    width: 100%;
+    height: 100%;
 }
 
 * {
     font-family: '-apple-system', "Helvetica Neue", "Roboto", "Segoe UI", 'microsoft yahei', sans-serif;
-}
-
-.clearfix:after {
-    content: ".";
-    display: block;
-    height: 0;
-    clear: both;
-    visibility: hidden;
-}
-
-.clearfix {
-    *zoom: 1;
+    box-sizing: border-box;
 }
