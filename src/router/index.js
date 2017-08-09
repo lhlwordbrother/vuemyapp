@@ -13,6 +13,31 @@ export default new Router({
                     path: '/patient',
                     name: 'patient',
                     component: resolve => require(['@/components/Patient'], resolve),
+                },
+                {
+                    path: '/work',
+                    name: 'work',
+                    component: resolve => require(['@/components/Patient'], resolve),
+                },
+                {
+                    path: '/appoint',
+                    name: 'appoint',
+                    component: resolve => require(['@/components/Patient'], resolve),
+                },
+                {
+                    path: '/visit',
+                    name: 'visit',
+                    component: resolve => require(['@/components/Patient'], resolve),
+                },
+                {
+                    path: '/tooth',
+                    name: 'tooth',
+                    component: resolve => require(['@/components/Patient'], resolve),
+                },
+                {
+                    path: '/setting',
+                    name: 'setting',
+                    component: resolve => require(['@/components/Patient'], resolve),
                 }
             ]
         },

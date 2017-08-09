@@ -22,20 +22,14 @@
         </li>
       </ul>
       <div class="setting">
-        <router-link to="/patient"></router-link>
+        <router-link to="/setting"></router-link>
       </div>
     </div>
-    <div class="_full">
+    <div class="_full main">
       <div class="head">
         <div class="handle">
-          <el-input
-            class="search"
-            placeholder="请输入关键词..."
-            icon="search"
-            v-model="search"
-            :on-icon-click="searchIconClick">
-          </el-input>
-          <el-button class="addPatient">新增患者</el-button>
+          <i-input v-model="search" class="search" icon="ios-search" placeholder="请输入关键词..."></i-input>
+          <Button class="addPatient" type="ghost">新增患者</Button>
         </div>
         <div class="toolbar">
           <i class="remind"></i>
@@ -158,6 +152,7 @@ export default {
       height: 30px;
       border-radius: 30px;
       border-color: $btnBc;
+      padding-left: 12px;
       &:focus{
         border-color: $hover;
       }
@@ -194,6 +189,11 @@ export default {
       }
     }
   }
+}
+
+.main{
+  display: flex;
+  flex-direction: column;
 }
 
 </style>
